@@ -9,7 +9,7 @@ const TrafficLight = () => {
 
         <div className="contenedor">
             <div className="traffic-light">
-                <div onClick={ () => setColor("red")} className={"light red" + (color == "red" ? " glow-red" : "")}></div>
+                <div className={"light red" + (color == "red" ? " glow-red" : "")}></div>
                 <div className={"light yellow" + (color == "yellow" ? " glow-yellow" : "")}></div>
                 <div className={"light green" + (color == "green" ? " glow-green" : "")}></div>
                 
@@ -22,7 +22,7 @@ const TrafficLight = () => {
             <br />
             <button onClick={ () => setColor("green")}>GREEN</button>
             <br />
-            {/* <button onClick={ () => setColor("blue")}>blue</button> Tengo que acabar esta parte  para añadir otro color  */}
+            <button onClick={ () => setColor("blue")}>blue</button> Tengo que acabar esta parte  para añadir otro color 
             </div>
             
         </div>
